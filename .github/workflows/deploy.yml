@@ -122,7 +122,7 @@ jobs:
                   src: docs
                   dst: dist/docs/
 
-            #- name: Handle Failure
+            #- name: Handle Failure Please
             #  run: |
             #      echo "<html><body><h1>Build Failure</h1><p>The build failed during one of the steps.</p>" > ./dist/index.html
             #- uses: austenstone/job-summary@v2.0
